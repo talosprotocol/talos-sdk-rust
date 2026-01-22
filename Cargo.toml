@@ -10,13 +10,15 @@ license = "Apache-2.0"
 tokio = { version = "1.0", features = ["full"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-reqwest = { version = "0.11", features = ["blocking", "json"] }
+reqwest = { version = "0.11", features = ["blocking", "json", "stream"] }
 talos-core-rs = { path = "../../core", version = "1.1.6" }
 rand = "0.8"
 thiserror = "1.0"
 hex = "0.4"
 sha2 = "0.10"
 serde_jcs = "0.1.0"
+futures-core = "0.3.31"
+bytes = "1.11.0"
 
 [dev-dependencies]
 anyhow = "1.0"

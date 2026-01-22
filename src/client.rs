@@ -2,6 +2,8 @@ use serde::Deserialize;
 use std::time::Duration;
 use reqwest::Client;
 use thiserror::Error;
+use bytes;
+use futures_core;
 
 #[derive(Error, Debug)]
 pub enum TalosError {
@@ -70,6 +72,28 @@ impl GatewayClient {
         }
 
         resp.text().await.map_err(TalosError::from)
+    }
+
+    /// Stream events (SSE).
+    /// Returns a stream of Bytes. Caller handles parsing.
+    pub async fn stream_resource(&self, path: &str) -> Result<impl futures_core::Stream<Item = Result<bytes::Bytes, reqwest::Error>>, TalosError> {
+        let url = format!("{}/{}", self.base_url, path);
+        let req = self.http.get(&url)
+            .header("Accept", "text/event-stream")
+            // No timeout for stream
+            .timeout(Duration::from_secs(0)); 
+
+        let resp = req.send().await?;
+
+        if !resp.status().is_success() {
+             return Err(TalosError::Api {
+                code: resp.status().as_u16(),
+                message: "Stream Error".to_string(),
+                request_id: "unknown".to_string(),
+            });
+        }
+
+        Ok(resp.bytes_stream())
     }
 }
 
