@@ -14,6 +14,17 @@ impl Identity {
         Self { wallet, provider }
     }
 
+    pub fn from_seed(seed: &[u8]) -> Self {
+        let provider = RealCryptoProvider;
+        // Convert slice to array [u8; 32]
+        let mut seed_arr = [0u8; 32];
+        let len = seed.len().min(32);
+        seed_arr[..len].copy_from_slice(&seed[..len]);
+
+        let wallet = Wallet::from_seed(seed_arr, None, &provider);
+        Self { wallet, provider }
+    }
+
     /// Sign a message
     pub fn sign(&self, message: &[u8]) -> [u8; 64] {
         self.wallet.sign(message, &self.provider)

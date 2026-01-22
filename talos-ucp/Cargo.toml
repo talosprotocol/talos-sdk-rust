@@ -1,0 +1,25 @@
+[package]
+name = "talos-ucp"
+version = "0.1.0"
+edition = "2021"
+description = "UCP Plugin for Talos Rust SDK"
+license = "Apache-2.0"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+reqwest = { version = "0.11", features = ["json", "blocking", "rustls-tls"] }
+anyhow = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+p256 = { version = "0.13", features = ["ecdsa"] }
+rand = "0.8"
+ecdsa = { version = "0.16", features = ["signing", "verifying"] }
+sha2 = "0.10"
+base64-url = "3.0.2"
+uuid = { version = "1.7", features = ["v7"] }
+serde_jcs = "0.1.0"
+talos-core-rs = { path = "../../../core" }
+
+[dev-dependencies]
+tokio = { version = "1.0", features = ["full"] }
