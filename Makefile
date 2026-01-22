@@ -5,18 +5,18 @@ SHELL := /bin/bash
 all: build test
 
 build:
-\tcargo build
+	cargo build
 
 test:
-\tcargo test
+	cargo test
 
 lint:
-\tcargo fmt --check
-\tcargo clippy -- -D warnings
+	cargo fmt --check
+	cargo clippy -- -D warnings
 
 sbom:
-\twhich cargo-cyclonedx || cargo install cargo-cyclonedx
-\tcargo cyclonedx -f json
+	which cargo-cyclonedx || cargo install cargo-cyclonedx
+	cargo cyclonedx -f json
 
 clean:
-\tcargo clean
+	cargo clean
