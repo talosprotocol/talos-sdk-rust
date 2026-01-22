@@ -1,0 +1,22 @@
+[package]
+name = "talos-sdk"
+version = "0.1.0"
+edition = "2021"
+description = "Talos Protocol SDK for Rust"
+authors = ["Talos Protocol <dev@talos.network>"]
+license = "Apache-2.0"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+talos-core-rs = { path = "../../core", version = "1.1.6" }
+rand = "0.8"
+thiserror = "1.0"
+hex = "0.4"
+sha2 = "0.10"
+serde_jcs = "0.1.0"
+
+[dev-dependencies]
+anyhow = "1.0"
