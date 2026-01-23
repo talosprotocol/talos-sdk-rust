@@ -1,0 +1,13 @@
+repo_id: "sdks-rust"
+repo_root: "."
+commands:
+  test_entrypoint: "scripts/test.sh"
+coverage:
+  enabled: false  # Disabled: no tests in sdks/rust yet
+  format: "cobertura"
+  report_path: "artifacts/coverage/coverage.xml"
+  thresholds:
+    line: 0.60
+    branch: 0.00
+ci:
+  default: ["--smoke", "--unit", "--coverage"]

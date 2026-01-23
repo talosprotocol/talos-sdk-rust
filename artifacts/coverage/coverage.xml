@@ -1,0 +1,713 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "https://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage branch-rate="0" branches-covered="0" branches-valid="0" complexity="0" line-rate="0" lines-covered="0" lines-valid="334" timestamp="1769138348" version="2.0.3">
+    <sources>
+        <source>/Users/nileshchakraborty/workspace/study/blockchain-mcp-security/sdks/rust</source>
+    </sources>
+    <packages>
+        <package line-rate="0" branch-rate="0" name=".Users.nileshchakraborty.workspace.study.blockchain-mcp-security.core.src.libs" complexity="0">
+            <classes>
+                <class branch-rate="0" complexity="0" filename="/Users/nileshchakraborty/workspace/study/blockchain-mcp-security/core/src/libs/lib.rs" line-rate="0" name=".Users.nileshchakraborty.workspace.study.blockchain-mcp-security.core.src.libs.lib.rs">
+                    <methods>
+                        <method name="talos_core_rs::talos_core_rs" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="39" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="39"/>
+                        <line branch="false" hits="0" number="42"/>
+                        <line branch="false" hits="0" number="43"/>
+                        <line branch="false" hits="0" number="44"/>
+                        <line branch="false" hits="0" number="45"/>
+                    </lines>
+                </class>
+                <class branch-rate="0" complexity="0" filename="/Users/nileshchakraborty/workspace/study/blockchain-mcp-security/core/src/libs/encoding.rs" line-rate="0" name=".Users.nileshchakraborty.workspace.study.blockchain-mcp-security.core.src.libs.encoding.rs">
+                    <methods>
+                        <method name="talos_core_rs::encoding::derive_cursor" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="20" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="talos_core_rs::encoding::base64url_decode" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="12" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="talos_core_rs::encoding::base64url_encode" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="7" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="7"/>
+                        <line branch="false" hits="0" number="8"/>
+                        <line branch="false" hits="0" number="9"/>
+                        <line branch="false" hits="0" number="12"/>
+                        <line branch="false" hits="0" number="13"/>
+                        <line branch="false" hits="0" number="14"/>
+                        <line branch="false" hits="0" number="20"/>
+                        <line branch="false" hits="0" number="21"/>
+                        <line branch="false" hits="0" number="22"/>
+                        <line branch="false" hits="0" number="23"/>
+                        <line branch="false" hits="0" number="24"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+        <package line-rate="0" branch-rate="0" name=".Users.nileshchakraborty.workspace.study.blockchain-mcp-security.core.src.libs....domain" complexity="0">
+            <classes>
+                <class branch-rate="0" complexity="0" filename="/Users/nileshchakraborty/workspace/study/blockchain-mcp-security/core/src/libs/../domain/wallet.rs" line-rate="0" name=".Users.nileshchakraborty.workspace.study.blockchain-mcp-security.core.src.libs....domain.wallet.rs">
+                    <methods>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet&gt;::sign::&lt;talos_core_rs::adapters::crypto::RealCryptoProvider&gt;" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="75" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet&gt;::verify::&lt;talos_core_rs::adapters::crypto::RealCryptoProvider&gt;" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="80" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet&gt;::address::&lt;talos_core_rs::adapters::crypto::RealCryptoProvider&gt;" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="69" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet&gt;::generate::&lt;talos_core_rs::adapters::crypto::RealCryptoProvider&gt;" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="29" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet&gt;::from_seed::&lt;talos_core_rs::adapters::crypto::RealCryptoProvider&gt;" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="41" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet&gt;::address::&lt;talos_core_rs::adapters::crypto::RealCryptoProvider&gt;::{closure#0}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="71" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet&gt;::public_key" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="51" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet&gt;::name" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="56" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet&gt;::to_did" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="61" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::domain::wallet::Wallet as core::fmt::Debug&gt;::fmt" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="18" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="18"/>
+                        <line branch="false" hits="0" number="19"/>
+                        <line branch="false" hits="0" number="20"/>
+                        <line branch="false" hits="0" number="21"/>
+                        <line branch="false" hits="0" number="22"/>
+                        <line branch="false" hits="0" number="23"/>
+                        <line branch="false" hits="0" number="24"/>
+                        <line branch="false" hits="0" number="29"/>
+                        <line branch="false" hits="0" number="30"/>
+                        <line branch="false" hits="0" number="31"/>
+                        <line branch="false" hits="0" number="32"/>
+                        <line branch="false" hits="0" number="33"/>
+                        <line branch="false" hits="0" number="34"/>
+                        <line branch="false" hits="0" number="35"/>
+                        <line branch="false" hits="0" number="36"/>
+                        <line branch="false" hits="0" number="37"/>
+                        <line branch="false" hits="0" number="38"/>
+                        <line branch="false" hits="0" number="41"/>
+                        <line branch="false" hits="0" number="42"/>
+                        <line branch="false" hits="0" number="43"/>
+                        <line branch="false" hits="0" number="44"/>
+                        <line branch="false" hits="0" number="45"/>
+                        <line branch="false" hits="0" number="46"/>
+                        <line branch="false" hits="0" number="47"/>
+                        <line branch="false" hits="0" number="48"/>
+                        <line branch="false" hits="0" number="51"/>
+                        <line branch="false" hits="0" number="52"/>
+                        <line branch="false" hits="0" number="53"/>
+                        <line branch="false" hits="0" number="56"/>
+                        <line branch="false" hits="0" number="57"/>
+                        <line branch="false" hits="0" number="58"/>
+                        <line branch="false" hits="0" number="61"/>
+                        <line branch="false" hits="0" number="62"/>
+                        <line branch="false" hits="0" number="63"/>
+                        <line branch="false" hits="0" number="64"/>
+                        <line branch="false" hits="0" number="65"/>
+                        <line branch="false" hits="0" number="66"/>
+                        <line branch="false" hits="0" number="69"/>
+                        <line branch="false" hits="0" number="70"/>
+                        <line branch="false" hits="0" number="71"/>
+                        <line branch="false" hits="0" number="72"/>
+                        <line branch="false" hits="0" number="75"/>
+                        <line branch="false" hits="0" number="76"/>
+                        <line branch="false" hits="0" number="77"/>
+                        <line branch="false" hits="0" number="80"/>
+                        <line branch="false" hits="0" number="81"/>
+                        <line branch="false" hits="0" number="82"/>
+                        <line branch="false" hits="0" number="83"/>
+                        <line branch="false" hits="0" number="84"/>
+                        <line branch="false" hits="0" number="85"/>
+                        <line branch="false" hits="0" number="86"/>
+                        <line branch="false" hits="0" number="87"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+        <package line-rate="0" branch-rate="0" name=".Users.nileshchakraborty.workspace.study.blockchain-mcp-security.core.src.libs....adapters" complexity="0">
+            <classes>
+                <class branch-rate="0" complexity="0" filename="/Users/nileshchakraborty/workspace/study/blockchain-mcp-security/core/src/libs/../adapters/python.rs" line-rate="0" name=".Users.nileshchakraborty.workspace.study.blockchain-mcp-security.core.src.libs....adapters.python.rs">
+                    <methods>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::name::{closure#0}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="74" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::public_key" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="68" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::name" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="73" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::sign" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="48" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::to_did" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="39" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::verify" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="54" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::address" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="43" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::generate" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="15" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::from_seed" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="24" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::__pymethod_to_did__" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="11" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::__pymethod_address__" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="11" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::__pymethod_get_name__" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="11" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::python::PyWallet&gt;::__pymethod_get_public_key__" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="11" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="11"/>
+                        <line branch="false" hits="0" number="15"/>
+                        <line branch="false" hits="0" number="16"/>
+                        <line branch="false" hits="0" number="17"/>
+                        <line branch="false" hits="0" number="18"/>
+                        <line branch="false" hits="0" number="19"/>
+                        <line branch="false" hits="0" number="20"/>
+                        <line branch="false" hits="0" number="24"/>
+                        <line branch="false" hits="0" number="25"/>
+                        <line branch="false" hits="0" number="26"/>
+                        <line branch="false" hits="0" number="27"/>
+                        <line branch="false" hits="0" number="28"/>
+                        <line branch="false" hits="0" number="29"/>
+                        <line branch="false" hits="0" number="30"/>
+                        <line branch="false" hits="0" number="31"/>
+                        <line branch="false" hits="0" number="32"/>
+                        <line branch="false" hits="0" number="33"/>
+                        <line branch="false" hits="0" number="34"/>
+                        <line branch="false" hits="0" number="35"/>
+                        <line branch="false" hits="0" number="36"/>
+                        <line branch="false" hits="0" number="37"/>
+                        <line branch="false" hits="0" number="39"/>
+                        <line branch="false" hits="0" number="40"/>
+                        <line branch="false" hits="0" number="41"/>
+                        <line branch="false" hits="0" number="43"/>
+                        <line branch="false" hits="0" number="44"/>
+                        <line branch="false" hits="0" number="45"/>
+                        <line branch="false" hits="0" number="46"/>
+                        <line branch="false" hits="0" number="48"/>
+                        <line branch="false" hits="0" number="49"/>
+                        <line branch="false" hits="0" number="50"/>
+                        <line branch="false" hits="0" number="51"/>
+                        <line branch="false" hits="0" number="54"/>
+                        <line branch="false" hits="0" number="55"/>
+                        <line branch="false" hits="0" number="56"/>
+                        <line branch="false" hits="0" number="57"/>
+                        <line branch="false" hits="0" number="58"/>
+                        <line branch="false" hits="0" number="59"/>
+                        <line branch="false" hits="0" number="60"/>
+                        <line branch="false" hits="0" number="61"/>
+                        <line branch="false" hits="0" number="63"/>
+                        <line branch="false" hits="0" number="64"/>
+                        <line branch="false" hits="0" number="65"/>
+                        <line branch="false" hits="0" number="68"/>
+                        <line branch="false" hits="0" number="69"/>
+                        <line branch="false" hits="0" number="70"/>
+                        <line branch="false" hits="0" number="73"/>
+                        <line branch="false" hits="0" number="74"/>
+                        <line branch="false" hits="0" number="75"/>
+                    </lines>
+                </class>
+                <class branch-rate="0" complexity="0" filename="/Users/nileshchakraborty/workspace/study/blockchain-mcp-security/core/src/libs/../adapters/crypto.rs" line-rate="0" name=".Users.nileshchakraborty.workspace.study.blockchain-mcp-security.core.src.libs....adapters.crypto.rs">
+                    <methods>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::aead_decrypt::{closure#0}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="89" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::hkdf_derive" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="48" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::hmac_sha256" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="98" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::aead_decrypt" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="73" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::aead_encrypt" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="55" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::ed25519_sign" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="17" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::random_bytes" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="106" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::ed25519_verify" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="23" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::x25519_generate" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="36" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::ed25519_public_key" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="31" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::sha256" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="92" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_core_rs::adapters::crypto::RealCryptoProvider as talos_core_rs::ports::crypto::CryptoProvider&gt;::x25519_dh" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="42" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="17"/>
+                        <line branch="false" hits="0" number="18"/>
+                        <line branch="false" hits="0" number="19"/>
+                        <line branch="false" hits="0" number="20"/>
+                        <line branch="false" hits="0" number="21"/>
+                        <line branch="false" hits="0" number="23"/>
+                        <line branch="false" hits="0" number="24"/>
+                        <line branch="false" hits="0" number="25"/>
+                        <line branch="false" hits="0" number="27"/>
+                        <line branch="false" hits="0" number="28"/>
+                        <line branch="false" hits="0" number="29"/>
+                        <line branch="false" hits="0" number="31"/>
+                        <line branch="false" hits="0" number="32"/>
+                        <line branch="false" hits="0" number="33"/>
+                        <line branch="false" hits="0" number="34"/>
+                        <line branch="false" hits="0" number="36"/>
+                        <line branch="false" hits="0" number="37"/>
+                        <line branch="false" hits="0" number="38"/>
+                        <line branch="false" hits="0" number="39"/>
+                        <line branch="false" hits="0" number="40"/>
+                        <line branch="false" hits="0" number="42"/>
+                        <line branch="false" hits="0" number="43"/>
+                        <line branch="false" hits="0" number="44"/>
+                        <line branch="false" hits="0" number="45"/>
+                        <line branch="false" hits="0" number="46"/>
+                        <line branch="false" hits="0" number="48"/>
+                        <line branch="false" hits="0" number="49"/>
+                        <line branch="false" hits="0" number="50"/>
+                        <line branch="false" hits="0" number="51"/>
+                        <line branch="false" hits="0" number="52"/>
+                        <line branch="false" hits="0" number="53"/>
+                        <line branch="false" hits="0" number="55"/>
+                        <line branch="false" hits="0" number="56"/>
+                        <line branch="false" hits="0" number="57"/>
+                        <line branch="false" hits="0" number="58"/>
+                        <line branch="false" hits="0" number="60"/>
+                        <line branch="false" hits="0" number="61"/>
+                        <line branch="false" hits="0" number="62"/>
+                        <line branch="false" hits="0" number="63"/>
+                        <line branch="false" hits="0" number="65"/>
+                        <line branch="false" hits="0" number="67"/>
+                        <line branch="false" hits="0" number="68"/>
+                        <line branch="false" hits="0" number="69"/>
+                        <line branch="false" hits="0" number="70"/>
+                        <line branch="false" hits="0" number="71"/>
+                        <line branch="false" hits="0" number="73"/>
+                        <line branch="false" hits="0" number="74"/>
+                        <line branch="false" hits="0" number="75"/>
+                        <line branch="false" hits="0" number="76"/>
+                        <line branch="false" hits="0" number="78"/>
+                        <line branch="false" hits="0" number="79"/>
+                        <line branch="false" hits="0" number="80"/>
+                        <line branch="false" hits="0" number="82"/>
+                        <line branch="false" hits="0" number="83"/>
+                        <line branch="false" hits="0" number="84"/>
+                        <line branch="false" hits="0" number="85"/>
+                        <line branch="false" hits="0" number="87"/>
+                        <line branch="false" hits="0" number="88"/>
+                        <line branch="false" hits="0" number="89"/>
+                        <line branch="false" hits="0" number="90"/>
+                        <line branch="false" hits="0" number="92"/>
+                        <line branch="false" hits="0" number="93"/>
+                        <line branch="false" hits="0" number="94"/>
+                        <line branch="false" hits="0" number="95"/>
+                        <line branch="false" hits="0" number="96"/>
+                        <line branch="false" hits="0" number="98"/>
+                        <line branch="false" hits="0" number="100"/>
+                        <line branch="false" hits="0" number="101"/>
+                        <line branch="false" hits="0" number="102"/>
+                        <line branch="false" hits="0" number="103"/>
+                        <line branch="false" hits="0" number="104"/>
+                        <line branch="false" hits="0" number="106"/>
+                        <line branch="false" hits="0" number="107"/>
+                        <line branch="false" hits="0" number="108"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+        <package line-rate="0" branch-rate="0" name="src.bin" complexity="0">
+            <classes>
+                <class branch-rate="0" complexity="0" filename="src/bin/vector_runner.rs" line-rate="0" name="src.bin.vector_runner.rs">
+                    <methods>
+                        <method name="vector_runner::run_signing::{closure#0}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="52" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="vector_runner::run_signing::{closure#1}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="89" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="vector_runner::run_signing" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="46" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="vector_runner::main" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="22" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="22"/>
+                        <line branch="false" hits="0" number="23"/>
+                        <line branch="false" hits="0" number="24"/>
+                        <line branch="false" hits="0" number="25"/>
+                        <line branch="false" hits="0" number="27"/>
+                        <line branch="false" hits="0" number="28"/>
+                        <line branch="false" hits="0" number="31"/>
+                        <line branch="false" hits="0" number="32"/>
+                        <line branch="false" hits="0" number="33"/>
+                        <line branch="false" hits="0" number="34"/>
+                        <line branch="false" hits="0" number="36"/>
+                        <line branch="false" hits="0" number="37"/>
+                        <line branch="false" hits="0" number="38"/>
+                        <line branch="false" hits="0" number="39"/>
+                        <line branch="false" hits="0" number="42"/>
+                        <line branch="false" hits="0" number="43"/>
+                        <line branch="false" hits="0" number="44"/>
+                        <line branch="false" hits="0" number="46"/>
+                        <line branch="false" hits="0" number="47"/>
+                        <line branch="false" hits="0" number="48"/>
+                        <line branch="false" hits="0" number="52"/>
+                        <line branch="false" hits="0" number="54"/>
+                        <line branch="false" hits="0" number="55"/>
+                        <line branch="false" hits="0" number="56"/>
+                        <line branch="false" hits="0" number="57"/>
+                        <line branch="false" hits="0" number="59"/>
+                        <line branch="false" hits="0" number="60"/>
+                        <line branch="false" hits="0" number="62"/>
+                        <line branch="false" hits="0" number="63"/>
+                        <line branch="false" hits="0" number="64"/>
+                        <line branch="false" hits="0" number="65"/>
+                        <line branch="false" hits="0" number="66"/>
+                        <line branch="false" hits="0" number="67"/>
+                        <line branch="false" hits="0" number="68"/>
+                        <line branch="false" hits="0" number="69"/>
+                        <line branch="false" hits="0" number="70"/>
+                        <line branch="false" hits="0" number="71"/>
+                        <line branch="false" hits="0" number="72"/>
+                        <line branch="false" hits="0" number="75"/>
+                        <line branch="false" hits="0" number="76"/>
+                        <line branch="false" hits="0" number="77"/>
+                        <line branch="false" hits="0" number="80"/>
+                        <line branch="false" hits="0" number="81"/>
+                        <line branch="false" hits="0" number="82"/>
+                        <line branch="false" hits="0" number="83"/>
+                        <line branch="false" hits="0" number="85"/>
+                        <line branch="false" hits="0" number="88"/>
+                        <line branch="false" hits="0" number="89"/>
+                        <line branch="false" hits="0" number="90"/>
+                        <line branch="false" hits="0" number="91"/>
+                        <line branch="false" hits="0" number="94"/>
+                        <line branch="false" hits="0" number="95"/>
+                        <line branch="false" hits="0" number="96"/>
+                        <line branch="false" hits="0" number="97"/>
+                        <line branch="false" hits="0" number="99"/>
+                        <line branch="false" hits="0" number="102"/>
+                        <line branch="false" hits="0" number="103"/>
+                        <line branch="false" hits="0" number="104"/>
+                        <line branch="false" hits="0" number="105"/>
+                        <line branch="false" hits="0" number="107"/>
+                        <line branch="false" hits="0" number="108"/>
+                        <line branch="false" hits="0" number="109"/>
+                        <line branch="false" hits="0" number="110"/>
+                        <line branch="false" hits="0" number="111"/>
+                        <line branch="false" hits="0" number="112"/>
+                        <line branch="false" hits="0" number="113"/>
+                        <line branch="false" hits="0" number="115"/>
+                        <line branch="false" hits="0" number="116"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+        <package line-rate="0" branch-rate="0" name="src" complexity="0">
+            <classes>
+                <class branch-rate="0" complexity="0" filename="src/canonical.rs" line-rate="0" name="src.canonical.rs">
+                    <methods>
+                        <method name="talos_sdk::canonical::marshal::&lt;_&gt;" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="5" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="talos_sdk::canonical::marshal::&lt;_&gt;::{closure#0}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="6" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="5"/>
+                        <line branch="false" hits="0" number="6"/>
+                        <line branch="false" hits="0" number="7"/>
+                    </lines>
+                </class>
+                <class branch-rate="0" complexity="0" filename="src/lib.rs" line-rate="0" name="src.lib.rs">
+                    <methods>
+                        <method name="talos_sdk::version" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="10" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="10"/>
+                        <line branch="false" hits="0" number="11"/>
+                        <line branch="false" hits="0" number="12"/>
+                    </lines>
+                </class>
+                <class branch-rate="0" complexity="0" filename="src/client.rs" line-rate="0" name="src.client.rs">
+                    <methods>
+                        <method name="&lt;talos_sdk::client::GatewayClient&gt;::get_resource::{closure#0}::{closure#0}::{closure#0}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="61" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::client::GatewayClient&gt;::get_resource::{closure#0}::{closure#0}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="59" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::client::GatewayClient&gt;::get_resource::{closure#0}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="44" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::client::GatewayClient&gt;::stream_resource::{closure#0}" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="79" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::client::GatewayClient&gt;::get_resource" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="44" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::client::GatewayClient&gt;::stream_resource" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="79" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::client::GatewayClient&gt;::new" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="35" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="35"/>
+                        <line branch="false" hits="0" number="36"/>
+                        <line branch="false" hits="0" number="37"/>
+                        <line branch="false" hits="0" number="38"/>
+                        <line branch="false" hits="0" number="39"/>
+                        <line branch="false" hits="0" number="41"/>
+                        <line branch="false" hits="0" number="42"/>
+                        <line branch="false" hits="0" number="44"/>
+                        <line branch="false" hits="0" number="45"/>
+                        <line branch="false" hits="0" number="46"/>
+                        <line branch="false" hits="0" number="48"/>
+                        <line branch="false" hits="0" number="49"/>
+                        <line branch="false" hits="0" number="50"/>
+                        <line branch="false" hits="0" number="53"/>
+                        <line branch="false" hits="0" number="55"/>
+                        <line branch="false" hits="0" number="56"/>
+                        <line branch="false" hits="0" number="57"/>
+                        <line branch="false" hits="0" number="58"/>
+                        <line branch="false" hits="0" number="59"/>
+                        <line branch="false" hits="0" number="60"/>
+                        <line branch="false" hits="0" number="61"/>
+                        <line branch="false" hits="0" number="62"/>
+                        <line branch="false" hits="0" number="63"/>
+                        <line branch="false" hits="0" number="64"/>
+                        <line branch="false" hits="0" number="66"/>
+                        <line branch="false" hits="0" number="67"/>
+                        <line branch="false" hits="0" number="68"/>
+                        <line branch="false" hits="0" number="69"/>
+                        <line branch="false" hits="0" number="70"/>
+                        <line branch="false" hits="0" number="72"/>
+                        <line branch="false" hits="0" number="74"/>
+                        <line branch="false" hits="0" number="75"/>
+                        <line branch="false" hits="0" number="79"/>
+                        <line branch="false" hits="0" number="80"/>
+                        <line branch="false" hits="0" number="81"/>
+                        <line branch="false" hits="0" number="82"/>
+                        <line branch="false" hits="0" number="84"/>
+                        <line branch="false" hits="0" number="86"/>
+                        <line branch="false" hits="0" number="88"/>
+                        <line branch="false" hits="0" number="89"/>
+                        <line branch="false" hits="0" number="90"/>
+                        <line branch="false" hits="0" number="91"/>
+                        <line branch="false" hits="0" number="92"/>
+                        <line branch="false" hits="0" number="93"/>
+                        <line branch="false" hits="0" number="94"/>
+                        <line branch="false" hits="0" number="96"/>
+                        <line branch="false" hits="0" number="97"/>
+                    </lines>
+                </class>
+                <class branch-rate="0" complexity="0" filename="src/identity.rs" line-rate="0" name="src.identity.rs">
+                    <methods>
+                        <method name="&lt;talos_sdk::identity::Identity&gt;::public_key" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="34" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::identity::Identity&gt;::did" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="39" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::identity::Identity&gt;::sign" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="29" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::identity::Identity&gt;::generate" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="11" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;talos_sdk::identity::Identity&gt;::from_seed" signature="" complexity="0" line-rate="0" branch-rate="0">
+                            <lines>
+                                <line hits="0" number="17" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line branch="false" hits="0" number="11"/>
+                        <line branch="false" hits="0" number="12"/>
+                        <line branch="false" hits="0" number="13"/>
+                        <line branch="false" hits="0" number="14"/>
+                        <line branch="false" hits="0" number="15"/>
+                        <line branch="false" hits="0" number="17"/>
+                        <line branch="false" hits="0" number="18"/>
+                        <line branch="false" hits="0" number="20"/>
+                        <line branch="false" hits="0" number="21"/>
+                        <line branch="false" hits="0" number="22"/>
+                        <line branch="false" hits="0" number="24"/>
+                        <line branch="false" hits="0" number="25"/>
+                        <line branch="false" hits="0" number="26"/>
+                        <line branch="false" hits="0" number="29"/>
+                        <line branch="false" hits="0" number="30"/>
+                        <line branch="false" hits="0" number="31"/>
+                        <line branch="false" hits="0" number="34"/>
+                        <line branch="false" hits="0" number="35"/>
+                        <line branch="false" hits="0" number="36"/>
+                        <line branch="false" hits="0" number="39"/>
+                        <line branch="false" hits="0" number="40"/>
+                        <line branch="false" hits="0" number="41"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
+</coverage>
