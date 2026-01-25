@@ -3,7 +3,7 @@
 # =============================================================================
 
 # Builder stage
-FROM rust:1.75-slim AS builder
+FROM rust:slim AS builder
 
 WORKDIR /workspace
 
@@ -11,29 +11,27 @@ WORKDIR /workspace
 RUN apt-get update && apt-get install -y --no-install-recommends \
     pkg-config \
     libssl-dev \
+    python3 \
+    python3-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy Cargo files for caching
-COPY sdks/rust/Cargo.toml sdks/rust/Cargo.lock ./sdks/rust/
-
-# Create dummy source to cache dependencies
-WORKDIR /workspace/sdks/rust
-RUN mkdir src && \
-    echo "fn main() {}" > src/main.rs && \
-    cargo build --release && \
-    rm -rf src
+COPY sdks/rust/Cargo.toml ./sdks/rust/
+COPY sdks/rust/talos-ucp ./sdks/rust/talos-ucp
+COPY core ./core
+RUN rm -f ./core/Cargo.lock
+COPY scripts ./scripts
 
 # Copy actual source
-WORKDIR /workspace
 COPY sdks/rust ./sdks/rust
-COPY scripts ./scripts
 
 # Build tests
 WORKDIR /workspace/sdks/rust
+RUN cargo update
 RUN cargo test --no-run
 
 # Test runner stage
-FROM rust:1.75-slim
+FROM rust:slim
 
 # OCI labels
 LABEL org.opencontainers.image.source="https://github.com/talosprotocol/talos"
@@ -55,7 +53,7 @@ COPY --from=builder /workspace/sdks/rust ./
 COPY --from=builder /workspace/scripts /workspace/scripts
 
 # Create non-root user
-RUN useradd -m -u 1000 talos && chown -R talos:talos /workspace
+RUN useradd -m -u 1001 talos && chown -R talos:talos /workspace
 USER talos
 
 # Default: run CI tests
