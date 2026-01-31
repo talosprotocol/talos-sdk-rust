@@ -1,4 +1,5 @@
 # Agent workspace: sdks/rust
+> **Project**: sdks/rust
 
 This folder contains agent-facing context, tasks, workflows, and planning artifacts for this submodule.
 
