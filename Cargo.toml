@@ -24,8 +24,11 @@ hex = "0.4"
 sha2 = "0.10"
 serde_jcs = "0.1.0"
 futures-core = "0.3.31"
+futures-util = "0.3.31"
 bytes = "1.11.0"
 base64-url = "3.0.2"
+chacha20poly1305 = "0.10"
+x25519-dalek = { version = "2.0", features = ["static_secrets"] }
 
 [dev-dependencies]
 anyhow = "1.0"

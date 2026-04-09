@@ -1,7 +1,7 @@
+use serde::Serialize;
 use std::collections::HashMap;
 use std::fs::File;
 use std::io::Write;
-use serde::Serialize;
 use talos_sdk::identity::Identity; // Assuming exposed; checking lib.rs earlier showed it is.
 
 #[derive(Serialize)]
@@ -35,8 +35,14 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let mut expected = HashMap::new();
     expected.insert("did".to_string(), serde_json::Value::String(id.did()));
-    expected.insert("public_key_hex".to_string(), serde_json::Value::String(id.public_key()));
-    expected.insert("signature_base64url".to_string(), serde_json::Value::String(sig_b64));
+    expected.insert(
+        "public_key_hex".to_string(),
+        serde_json::Value::String(id.public_key()),
+    );
+    expected.insert(
+        "signature_base64url".to_string(),
+        serde_json::Value::String(sig_b64),
+    );
     expected.insert("verify".to_string(), serde_json::Value::Bool(true));
 
     vectors.push(TestVector {

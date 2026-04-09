@@ -31,5 +31,4 @@ if [[ ! -f "$VECTORS_FILE" ]]; then
 fi
 
 echo "✅ Vectors Found: $VECTORS_FILE"
-echo "⚠️  Runner not yet implemented. (Phase 0 Check Passed)"
-# TODO: Invoke 'cargo run --bin vector-runner -- $VECTORS_FILE'
+cargo run --bin vector_runner -- "$VECTORS_FILE"
