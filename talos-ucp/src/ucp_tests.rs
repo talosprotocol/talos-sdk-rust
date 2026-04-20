@@ -19,10 +19,10 @@ mod tests {
         let jws = sign_body_detached(&signing_key, kid, body).unwrap();
 
         // detached JWS Verify (split by '.')
-        verify_body_detached(&verifying_key, body, &jws.replace("..", ".")).unwrap();
+        verify_body_detached(&verifying_key, body, &jws).unwrap();
 
         // Negative: tampered body
-        let err = verify_body_detached(&verifying_key, b"tampered", &jws.replace("..", "."));
+        let err = verify_body_detached(&verifying_key, b"tampered", &jws);
         assert!(err.is_err());
     }
 

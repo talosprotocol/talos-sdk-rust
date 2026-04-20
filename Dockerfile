@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY sdks/rust/Cargo.toml ./sdks/rust/
 COPY sdks/rust/talos-ucp ./sdks/rust/talos-ucp
 COPY core ./core
+COPY contracts ./contracts
 RUN rm -f ./core/Cargo.lock
 COPY scripts ./scripts
 
@@ -46,10 +47,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     bash \
     pkg-config \
     libssl-dev \
+    python3 \
+    python3-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy from builder
 COPY --from=builder /workspace/sdks/rust ./
+COPY --from=builder /workspace/core /workspace/core
+COPY --from=builder /workspace/contracts /workspace/contracts
 COPY --from=builder /workspace/scripts /workspace/scripts
 
 # Create non-root user

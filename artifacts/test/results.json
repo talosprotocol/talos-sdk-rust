@@ -1,6 +1,6 @@
 {
   "repo_id": "sdks-rust",
-  "command": "--unit",
+  "command": "--smoke",
   "status": "pass",
-  "timestamp": "2026-04-09T23:52:08Z"
+  "timestamp": "2026-04-20T03:31:45Z"
 }

@@ -22,7 +22,7 @@ run_smoke() {
 
 run_integration() {
     echo "=== Running Integration Tests ==="
-    cargo test --test integration
+    cargo test --workspace
 }
 
 run_coverage() {
