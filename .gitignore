@@ -1,1 +1,5 @@
 /target
+artifacts/test/results.json
+artifacts/coverage/coverage.xml
+*.db-shm
+*.db-wal
